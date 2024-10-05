@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ContentView: View {
     
@@ -14,8 +15,14 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-            Text("Hello, world!")
+            Text("FLAMENGO\nFLUMINENSE")
                 .font(.custom("Diary of an 8-bit mage", size: 32))
+                .offset(y: offset)
+                .animation(.easeInOut(duration: endsAt), value: offset)
+            Text("FLAMENGO\nFLUMINENSE")
+                .font(.custom("Diary of an 8-bit mage", size: 32))
+                .foregroundColor(.white)
+                .blur(radius: 12)
                 .offset(y: offset)
                 .animation(.easeInOut(duration: endsAt), value: offset)
         }

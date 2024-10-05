@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56DC5C762CAC88AD007B24BC /* Combine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DC5C752CAC88AD007B24BC /* Combine.framework */; };
 		56F8E3162CA8B0970060B41D /* ATest8bitFontApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F8E3152CA8B0970060B41D /* ATest8bitFontApp.swift */; };
 		56F8E3182CA8B0970060B41D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F8E3172CA8B0970060B41D /* ContentView.swift */; };
 		56F8E31A2CA8B09B0060B41D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56F8E3192CA8B09B0060B41D /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56DC5C752CAC88AD007B24BC /* Combine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Combine.framework; path = System/Library/Frameworks/Combine.framework; sourceTree = SDKROOT; };
 		56F8E3122CA8B0970060B41D /* ATest8bitFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATest8bitFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56F8E3152CA8B0970060B41D /* ATest8bitFontApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATest8bitFontApp.swift; sourceTree = "<group>"; };
 		56F8E3172CA8B0970060B41D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56DC5C762CAC88AD007B24BC /* Combine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +77,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56DC5C742CAC88AD007B24BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56DC5C752CAC88AD007B24BC /* Combine.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		56F8E3092CA8B0970060B41D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +92,7 @@
 				56F8E3252CA8B09C0060B41D /* ATest8bitFontTests */,
 				56F8E32F2CA8B09C0060B41D /* ATest8bitFontUITests */,
 				56F8E3132CA8B0970060B41D /* Products */,
+				56DC5C742CAC88AD007B24BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
